@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box;}
+
+
+body{
+	margin: 0;
+	
+}
+
+header{	grid-column: 1 / span 12;
+	grid-row: 1;
+
+    	display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-auto-rows: auto;
+		
+		border: 1px solid black; }
+
+h1{
+    grid-column: 2/ span 4;
+    grid-row: 1;
+}
+
+
+
+nav{ grid-column: 8/ span 12;}
+
+ul li{display: inline-block;
+    list-style-type: none;
+padding: 20px;}
+
+
+
+
+main{	
+border: 1px solid red;
+
+}
+
+
+
+
+.une{
+	display: block;
+	text-align: center;
+}
+
+.paragrapheun{
+	
+	border: 10px solid black;
+}
+
+
+
+.connaissance{
+   display: block;
+   text-align: center;
+}
+
+
+
+
+
+.competences{
+    grid-column: 1/ span 12;
+	grid-row: 3;
+	display: grid;	
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;	
+	border: 1px solid green;
+}
+
+.competences h1{ 
+	grid-column: 6/ span 2;
+}
+
+.competences1{
+	grid-column: 1 / span 12;
+	grid-row: 4;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;	
+}
+
+.competences2{
+	grid-column: 2/ span 3;
+}
+
+.competences3{
+	grid-column: 6/span 3;
+}
+
+.competences4{
+	grid-column: 10/span 3;
+}
+
+.parcours{
+    grid-column: 1/ span 12;
+	grid-row: 4;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;		
+	border: 1px solid green;
+}
+
+.parcours h1{
+	grid-column: 6/ span 2;
+}
+
+.parcours1{
+	grid-column: 1 / span 12;
+	grid-row: 5;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;
+}
+
+.parcours2 {
+	grid-column: 4/ span 2;
+	grid-row: 6;
+}
+
+.parcours3{
+	grid-column: 8/ span 2;
+	grid-row: 7;
+}
+
+.parcours4{
+	grid-column: 4/ span 2;
+	grid-row: 8;
+}
+
+.parcours5{
+	grid-column: 8/ span 2;
+	grid-row: 9;
+}
+
+/* .cv{
+    grid-column: 1/ span 12;
+	grid-row: 5;
+	display: grid;	
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;	
+	border: 1px solid green;
+
+
+.cv h1{
+	grid-column: 6 / span 2;
+} */
+
+.portfolio{
+    grid-column: 1/ span 12;
+	grid-row: 6;
+	display: grid;	
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;	
+	border: 1px solid green;
+}
+
+.portfolio h1{ 
+	grid-column: 6/ span 2;
+}
+
+.portfolio1{
+	grid-column: 1 / span 12;
+	grid-row: 7;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;	
+}
+
+.portfolio2{
+	grid-column: 2/ span 3;
+}
+
+.portfolio3{
+	grid-column: 6/span 3;
+}
+
+.portfolio4{
+	grid-column: 10/span 3;
+}
+
+.contact{
+    grid-column: 1/ span 12;
+	grid-row: 7;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: auto;		
+	border: 1px solid green;
+}
+
+.contact h1{
+	grid-column: 6/ span 2;
+}
+
+
+
+
+footer{
+	border: 1px solid black;
+	
+}
